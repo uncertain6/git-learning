@@ -228,12 +228,6 @@ git remote
 git remote -v
 ```
 
-### Remove a remote
-
-```bash
-git remote remove <name>
-```
-
 ---
 
 # GitHub
@@ -293,7 +287,7 @@ git clone <repository_url> <folder_name>
 Example:
 
 ```bash
-git clone https://github.com/username/project.git my-project
+git clone https://github.com/username/project.git git-learning
 ```
 
 ---
@@ -335,12 +329,3 @@ git pull
 ```
 
 ---
-
-# Things I Learned
-
-* Git only pushes commits, not unstaged or uncommitted changes.
-* `git add` stages changes.
-* `git commit` saves a version locally.
-* `git push` uploads commits to GitHub.
-* `git fetch` downloads information from GitHub without changing local files.
-* `git pull` downloads and merges changes into the current branch.
